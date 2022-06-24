@@ -1,4 +1,4 @@
-/*************************************************************************/
+/*Theuns Changed the real_T friction to 0 line 42 and bounce to 1 line 44*/
 /*  physics_material.h                                                   */
 /*************************************************************************/
 /*                       This file is part of:                           */
@@ -39,9 +39,9 @@ class PhysicsMaterial : public Resource {
 	OBJ_SAVE_TYPE(PhysicsMaterial);
 	RES_BASE_EXTENSION("phymat");
 
-	real_t friction = 1.0;
+	real_t friction = 0; /* real_t friction = 1.0; */
 	bool rough = false;
-	real_t bounce = 0.0;
+	real_t bounce = 1; /* real_t bounce = 0.0; */
 	bool absorbent = false;
 
 protected:
