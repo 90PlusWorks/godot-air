@@ -1,6 +1,6 @@
 # GoAir Sumulation Engine is derived from the Godot Engine in 2022
 Changed the bounce to allow values of more than 1. I use this to impart energy to gas particles when they bump against a warm surface.
-The rest of the code is stuck in 2022 and way behind the current.
+The rest of the code is stuck in 2022 and way behind the current. The Godot team did not want to allow this in their code.
 <p align="center">
   <a href="https://godotengine.org">
     <img src="logo_outlined.svg" width="400" alt="Godot Air Engine logo">
